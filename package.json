@@ -2,11 +2,12 @@
   "name": "boutique",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng open": "ng s -o",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "shutdown": "ng s --kill"
   },
   "private": true,
   "dependencies": {
@@ -36,3 +37,7 @@
     "typescript": "~5.4.2"
   }
 }
+
+
+
+
